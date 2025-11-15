@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/main.css" />
+  <title>Restaurants</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1> Featured Restaurants</h1f>
+  </header>
+
+  <% const images = [
+    "/images/rest1.jpg",
+    "/images/rest2.jpg",
+    "/images/rest3.jpeg"
+]; %>
+
+
+  <div class="container">
+    
+    <% quiz.forEach((r, index) => { %>
+        <div class="card">
+            <img src="<%= images[index % images.length] %>" class="card-img">
+
+            <div class="card-body">
+                <h2><%= r.name %></h2>
+                <p class="desc"><%= r.cuisinetype %></p>
+                <p class="rating"> <%= r.rating %> / 5</p>
+            </div>
+        </div>
+    <% }); %>
+
+  </div>
+
+</body>
+</html>
