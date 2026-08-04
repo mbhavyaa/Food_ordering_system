@@ -21,17 +21,17 @@ A unique aspect of the project is the proposed **food donation workflow**, where
 
 The database models entities such as:
 
-*customer – Stores user details like name, email, address, and phone.
-*Restaurant – Contains restaurant info such as name, cuisine, and rating.
-*MenuItem – Lists food items offered by restaurants with price and category.
-*Order – Stores each order's user, restaurant, date, status, and total amount.
-*OrderDetail – Line-items of an order (each food item + quantity).
-*Delivery – Tracks delivery agent, delivery status, and linked order.
-*Payment – Stores payment mode and payment status for each order.
-*Review – User ratings and comments for restaurants.
-*LeftoverFood – Stores leftover food details offered for donation by restaurants.
-*NGO – Stores NGO information like contact person and address.
-*FoodDonation – Links leftover food to NGOs with collection time and status.
+* customer – Stores user details like name, email, address, and phone.
+* Restaurant – Contains restaurant info such as name, cuisine, and rating.
+* MenuItem – Lists food items offered by restaurants with price and category.
+* Order – Stores each order's user, restaurant, date, status, and total amount.
+* OrderDetail – Line-items of an order (each food item + quantity).
+* Delivery – Tracks delivery agent, delivery status, and linked order.
+* Payment – Stores payment mode and payment status for each order.
+* Review – User ratings and comments for restaurants.
+* LeftoverFood – Stores leftover food details offered for donation by restaurants.
+* NGO – Stores NGO information like contact person and address.
+* FoodDonation – Links leftover food to NGOs with collection time and status.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6fe1e815-3212-4df7-964b-9035ba0068d4" />
 
