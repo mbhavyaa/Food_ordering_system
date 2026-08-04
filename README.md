@@ -30,7 +30,8 @@ The database models entities such as:
 * NGOs
 * Food Donations
 
-ER Diagram
+ER Diagram<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6fe1e815-3212-4df7-964b-9035ba0068d4" />
+
 ![public/images/ER-diagram.png]
 
 The schema demonstrates the use of:
