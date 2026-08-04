@@ -31,7 +31,7 @@ The database models entities such as:
 * Food Donations
 
 ER Diagram
-
+![public/images/ER-diagram.png]
 
 The schema demonstrates the use of:
 
